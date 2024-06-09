@@ -34,7 +34,6 @@ int to_bin(int decimal, int result[]) {
 }
 
 int to_oct(int decimal, int result[]) {
-
   int idx = 0;
   if (!decimal) {
     result[0] = 0;
